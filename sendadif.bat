@@ -1,0 +1,10 @@
+call c:\wsjtx-logs\getlogs.bat
+python .\sendadiFudp.py "c:\SKCCLogger\Logs\SENATElog.adi" "C:\SKCCLogger\Logs\send.history"
+python .\sendadiFudp.py "C:\wsjtx-logs\705.adi" "C:\SKCCLogger\Logs\send.history"
+python .\sendadiFudp.py "C:\wsjtx-logs\g1m.adi" "C:\SKCCLogger\Logs\send.history"
+python .\sendadiFudp.py "C:\wsjtx-logs\ic7300.adi" "C:\SKCCLogger\Logs\send.history"
+python .\sendadiFudp.py "C:\wsjtx-logs\k2.adi" "C:\SKCCLogger\Logs\send.history"
+python .\sendadiFudp.py "C:\wsjtx-logs\ts2k.adi" "C:\SKCCLogger\Logs\send.history"
+python .\sendadiFudp.py "C:\wsjtx-logs\ts870s.adi" "C:\SKCCLogger\Logs\send.history"
+python .\sendadiFudp.py "C:\pota\mobile.adi" "C:\SKCCLogger\Logs\send.history"
+python .\sendadiFudp.py "C:\tmp\all.adi" "C:\SKCCLogger\Logs\send.history"
